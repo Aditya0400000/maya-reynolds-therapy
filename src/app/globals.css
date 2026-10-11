@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
 @theme static {
-  --color-brand: #85b2b2;
-  --color-ink: #2d2d2d;
-  --color-paper: #f6f4ef;
+  --color-ink: #26324a;      
+  --color-sand: #eaddd0;     
+  --color-brand: #a85a3e;    
 
-  --color-primary: #2d2d2d;
-  --color-secondary: #e9e4da;
-  --color-accent: #85b2b2;
+  --color-paper: #fbf7f2;    
+  --color-surface: #fffdfb;  
+  --color-line: #e7ddd3;     
+  --color-night: #1b2335;   
 
   --font-body: var(--font-body-src), sans-serif;
   --font-heading: var(--font-heading-src), serif;
