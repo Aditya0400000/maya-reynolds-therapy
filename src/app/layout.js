@@ -7,7 +7,6 @@ const body = Mulish({
   variable: "--font-body-src",
 });
 
-
 const heading = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["300", "400"],
@@ -22,8 +21,9 @@ const script = Mrs_Saint_Delafield({
 });
 
 export const metadata = {
-  title: "Counseling in Newbury Park, CA",
-  description: "Online & in-person counseling in Newbury Park, CA.",
+  title: "Anxiety & Trauma Therapist in Santa Monica, CA | Dr. Maya Reynolds, PsyD",
+  description:
+    "Dr. Maya Reynolds, PsyD is a licensed clinical psychologist in Santa Monica, CA offering anxiety, panic, trauma, EMDR and burnout therapy for adults, in person and via telehealth across California.",
 };
 
 export default function RootLayout({ children }) {

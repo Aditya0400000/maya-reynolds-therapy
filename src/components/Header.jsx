@@ -7,40 +7,14 @@ const HAMBURGER_LINES = 3;
 const nav = [
   { label: "About", href: "#about" },
   {
-    label: "Our Team",
+    label: "Services",
     children: [
-      { label: "Jennifer Anderson, LMFT", href: "#" },
-      { label: "Candace Bletscher, AMFT", href: "#" },
-      { label: "Heather Williams-Baumgart, AMFT", href: "#" },
-      { label: "Samantha Johnson, AMFT", href: "#" },
-      { label: "Autumn Bodily, AMFT", href: "#" },
-      { label: "Rosa Gomez, AMFT", href: "#" },
-      { label: "Chad Flores, AMFT", href: "#" },
-      { label: "Simran Sidhu, AMFT", href: "#" },
-      { label: "Jessica Jauregui, MA, AMFT", href: "#" },
+      { label: "Anxiety & Panic Therapy", href: "#services" },
+      { label: "Trauma Therapy & EMDR", href: "#services" },
+      { label: "Burnout & Perfectionism", href: "#services" },
     ],
   },
-  {
-    label: "Specialties",
-    children: [
-      { label: "Dissociation", href: "#" },
-      { label: "Trauma", href: "#" },
-      { label: "Special Needs Parenting", href: "#" },
-      { label: "Couples", href: "#" },
-      { label: "Children & Teens", href: "#" },
-      { label: "Anxiety & Depression", href: "#" },
-      { label: "Adoption", href: "#" },
-    ],
-  },
-  {
-    label: "Methods",
-    children: [
-      { label: "EMDR", href: "#" },
-      { label: "Brainspotting", href: "#" },
-      { label: "Somatic Therapy", href: "#" },
-      { label: "Parts Work Therapy", href: "#" },
-    ],
-  },
+  { label: "Our Office", href: "#office" },
   { label: "FAQs", href: "#faqs" },
 ];
 
@@ -68,14 +42,13 @@ function Logo() {
     <a
       href="#"
       className="block shrink-0"
-      aria-label="Conejo Valley Family Counseling, home"
+      aria-label="Dr. Maya Reynolds, PsyD, home"
     >
-      <span className="block font-heading  text-[10.5vw] font-light leading-none lg:text-[3.4vw]">
-        Conejo Valley
+      <span className="block font-heading text-[10.5vw] font-light leading-none lg:text-[3.4vw]">
+        Maya Reynolds
       </span>
-
-      <span className="mt-[1.8vw] block pl-[1vw] text-[2.7vw] font-normal uppercase tracking-[0.5em] text-[#85b2b2] lg:mt-[0.6vw] lg:pl-[0.3vw] lg:text-[0.9vw]">
-        Family Counseling
+      <span className="mt-[1.8vw] block pl-[1vw] text-[2.7vw] font-normal uppercase tracking-[0.42em] text-brand lg:mt-[0.6vw] lg:pl-[0.3vw] lg:text-[0.9vw]">
+        Clinical Psychology
       </span>
     </a>
   );
@@ -107,7 +80,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Logo />
 
-          <nav className="hidden items-center gap-[2vw] lg:flex" aria-label="Main">
+          <nav className="hidden items-center gap-[2.6vw] lg:flex" aria-label="Main">
             {nav.map((item) =>
               item.children ? (
                 <div key={item.label} className="group relative">
@@ -124,7 +97,7 @@ export default function Header() {
                         <li key={child.label}>
                           <a
                             href={child.href}
-                            className="label-caps nav-sub-text dropdown-underline block py-[0.9vw] "
+                            className="label-caps nav-sub-text block py-[0.9vw] transition-colors hover:text-brand"
                           >
                             {child.label}
                           </a>

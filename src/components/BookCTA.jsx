@@ -7,7 +7,7 @@ export default function BookCTA() {
       <div className="flex flex-col lg:grid lg:grid-cols-[11.75vw_1fr_34.4vw] lg:items-end">
         <img
           src="/images/book-left.jpg"
-          alt="A hand picking up seashells on a sandy beach"
+          alt="A seashell resting in an open hand"
           className="aspect-[182/198] w-[48.4vw] object-cover lg:aspect-auto lg:h-[37vw] lg:w-full"
         />
 
@@ -17,21 +17,19 @@ export default function BookCTA() {
           <div className="mt-7 lg:mt-0">
             <h2 className="text-[2.1rem] leading-[1.15] lg:text-[4.3vw] lg:leading-[1.05]">
               <span className="lg:block lg:whitespace-nowrap">
-                Find a therapist who is the
+                Anxiety &amp; trauma therapy
               </span>{" "}
               <span className="lg:block lg:whitespace-nowrap">
-                right fit for <span className="script-word">you</span>.
+                in Santa Monica, for <span className="script-word">you</span>.
               </span>
             </h2>
 
             <p className="intro-p mt-7 lg:mt-[2.2vw] lg:max-w-[37vw]">
-              Coming to therapy is a courageous decision, and connecting with
-              the right kind of therapist makes all the difference. We
-              understand that your journey is personal, and we&apos;re here to
-              support you with care and understanding every step of the way.
-              Each member of our team brings dedicated expertise and a
-              commitment to support you in your struggles. We want you to feel
-              prioritized, understood, and empowered.
+              Reaching out for support is a meaningful first step. Whether you
+              are looking for in-person therapy in Santa Monica or secure
+              telehealth sessions anywhere in California, I would be glad to
+              hear from you and help you feel more steady, resilient, and
+              connected to yourself.
             </p>
 
             <p className="intro-p mt-4 lg:mt-[1.2vw]">
@@ -49,7 +47,7 @@ export default function BookCTA() {
 
         <img
           src="/images/book-right.jpg"
-          alt="A hand pointing at shells on the sand, with a child standing nearby"
+          alt="Warm sand with soft footprints"
           className="ml-[17.5vw] mt-[52px] aspect-[309/268] w-[calc(100%-17.5vw)] object-cover lg:m-0 lg:aspect-auto lg:h-[45.5vw] lg:w-full"
         />
       </div>

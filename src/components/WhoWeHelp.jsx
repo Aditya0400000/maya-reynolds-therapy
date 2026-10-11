@@ -1,29 +1,29 @@
 const cards = [
   {
-    title: "Adults",
+    title: "High-achieving adults",
     image: "/images/who-adults.jpg",
-    alt: "Two people sitting on the beach looking at the water",
-    text: "Feeling stuck or overwhelmed? We help adults find clarity, build resilience, and move forward with confidence by addressing the root causes of anxiety, stress, and emotional pain.",
+    alt: "A woman journaling by a sunlit window",
+    text: "You are thoughtful, capable, and self-aware, yet exhausted by constant worry and overthinking. Therapy gives you practical tools and a calm space to feel steady again.",
   },
   {
-    title: "Couples",
+    title: "Entrepreneurs & creatives",
     image: "/images/who-couples.jpg",
-    alt: "A couple embracing on the beach",
-    text: "Relationships require effort, and we’re here to help you strengthen yours. We guide couples through challenges like communication breakdowns and trust issues, helping you rebuild intimacy and strengthen your relationship.",
+    alt: "A warm, plant-filled creative workspace",
+    text: "After years of pushing through stress, it is easy to feel disconnected from yourself. Together we slow down, reconnect, and build more sustainable ways of living and working.",
   },
   {
-    title: "Children & Teens",
+    title: "Adults healing from trauma",
     image: "/images/who-children.jpg",
-    alt: "A boy carrying a girl on the beach",
-    text: "Kids need support, too. We help them process big emotions, cope with challenging family situations, build coping skills, and feel understood, while also working closely with their parents to create a nurturing environment.",
+    alt: "A person sitting quietly by the sea",
+    text: "Whether your trauma is a single event or long-standing patterns from childhood, relationships, or chronic stress, we move carefully, with safety and stabilization first.",
   },
 ];
 
 export default function WhoWeHelp() {
   return (
-    <section className="bg-white px-[6vw] pb-16 pt-14 lg:px-0 lg:pb-[7.2vw] lg:pt-[6vw]">
+    <section className="bg-surface px-[6vw] pb-16 pt-14 lg:px-0 lg:pb-[7.2vw] lg:pt-[6vw]">
       <h2 className="pl-[2vw] text-[2.25rem] leading-[1.1] lg:pl-[6vw] lg:text-[4.3vw] lg:leading-[1.05]">
-        Who we <span className="script-word">help</span>
+        Who I <span className="script-word">help</span>
       </h2>
 
       <div className="mt-10 flex flex-col gap-14 lg:mt-[4vw] lg:grid lg:grid-cols-3 lg:gap-[1.6vw] lg:pl-[16.5vw] lg:pr-[5vw]">
