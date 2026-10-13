@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="overflow-hidden pb-8 lg:pb-[6vw]">
+    <section className="overflow-hidden pb-8 lg:pb-[10vw]">
       <div className="grid grid-cols-[71fr_14.6fr_14.4fr] lg:h-[43.2vw] lg:grid-cols-[34.4fr_57.6fr_8fr]">
         <div className="col-span-3 col-start-1 row-start-1 flex flex-col justify-between gap-12 px-6 pb-[15vw] pt-[16vw] lg:col-span-1 lg:col-start-2 lg:gap-0 lg:pb-[1vw] lg:pl-[8.5vw] lg:pr-0 lg:pt-[0.6vw]">
           <p className="label-caps hero-label lg:max-w-[28vw]">
